@@ -1,46 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photos — Kyiv</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>KYIV | UKRAINE</h1>
-            <a href="index.html">La capitale</a>
-            <a href="kyiv_photo_page.html">Photo de Kyiv</a>
-            <a href="propos_de_kyiv.html">A propos</a>
-        </nav>
-    </header>
 
-    <main>
-        <section id="photo_sec">
-            <article class="article photo">
-                <img src="img/kyiv (1).jpg" alt="" width="250px">
-                <p></p>
-            </article>
-             <article class="article photo">
-                <img src="img/kyiv (2).jpg" alt="" width="250px">
-            </article>
-             <article class="article photo">
-                <img src="img/kyiv (3).jpg" alt="" width="250px">
-            </article>
-             <article class="article photo">
-                <img src="img/kyiv (4).jpg" alt="" width="250px">
-                <p>Dnipro, river</p>
-            </article>
-             <article class="article photo">
-                <img src="img/kyiv (6).jpg" alt="" width="250px">
-            </article>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">Kyiv</a>
+      <ul class="nav-links">
+        <li><a href="index.html">La capitale</a></li>
+        <li><a href="kyiv_photo_page.html" aria-current="page">Photos</a></li>
+        <li><a href="propos_de_kyiv.html">À propos</a></li>
+      </ul>
+    </div>
+  </nav>
 
-        </section>
-    </main>
+  <header class="page-head">
+    <h1>Photos de Kyiv</h1>
+    <p class="lead">Quelques images de la ville.</p>
+  </header>
 
-    <footer>
+  <main>
+    <section class="photo-grid" aria-label="Galerie photo">
+      <figure class="photo">
+        <img src="img/kyiv%20(1).jpg" alt="Vue de Kyiv" loading="lazy">
+      </figure>
+      <figure class="photo">
+        <img src="img/kyiv%20(2).jpg" alt="Vue de Kyiv" loading="lazy">
+      </figure>
+      <figure class="photo">
+        <img src="img/kyiv%20(3).jpg" alt="Vue de Kyiv" loading="lazy">
+      </figure>
+      <figure class="photo">
+        <img src="img/kyiv%20(4).jpg" alt="Le fleuve Dniepr à Kyiv" loading="lazy">
+        <figcaption>Le Dniepr</figcaption>
+      </figure>
+      <figure class="photo">
+        <img src="img/kyiv%20(6).jpg" alt="Vue de Kyiv" loading="lazy">
+      </figure>
+    </section>
+  </main>
 
-    </footer>
+  <footer class="footer">
+    <p>Kyiv | Ukraine</p>
+  </footer>
+
 </body>
 </html>
