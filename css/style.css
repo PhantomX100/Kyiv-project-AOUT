@@ -263,3 +263,26 @@ h2 {
   }
 }
 
+/* ===== css -voyage-Kyiv ===== */
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.partie-voyage{
+  margin: 3%;
+  background-color: #6e6e73;
+  padding: 5%;
+  border-radius: 30px;
+}
+.partie-voyage img{
+  width: 55vw;
+  height: 20vh;
+}
+
+.h1-voyage{
+  text-align: center;
+  font-size: 3rem;
+}
