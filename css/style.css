@@ -264,7 +264,7 @@ h2 {
 }
 
 /* ===== css -voyage-Kyiv ===== */
-main{
+.main-progression{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -285,4 +285,72 @@ main{
 .h1-voyage{
   text-align: center;
   font-size: 3rem;
+}
+
+
+/* ===== css nuit-a-Kyiv ===== */
+.header-progresion{
+  text-align: center;
+  margin: 30px;
+}
+.main-progression{
+  display: flex;
+}
+
+
+
+.hotels{
+  display: flex;
+  flex-direction: row;
+  gap: 275px;
+}
+.hotel{
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  background-color: #6e6e73;
+  border-radius: 30px;
+  text-align: center;
+  gap: 10px;
+}
+
+.hotel span{
+  font-size: 2rem;
+}
+
+.div-hotels{
+  text-align: center  ;
+}
+
+.hotel img{
+  width: 30vw;
+  height: 35vh;
+}
+
+
+.campings{
+  display: flex;
+  flex-direction: row;
+  gap: 275px;
+}
+.camping{
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  background-color: #6e6e73;
+  border-radius: 30px;
+  text-align: center;
+  gap: 10px;
+}
+
+.camping img{
+  width: 30vw;
+  height: 35vh;
+}
+.camping span{
+  font-size: 2rem;
+}
+
+.div-campings{
+  text-align: center  ;
 }
